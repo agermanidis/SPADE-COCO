@@ -58,7 +58,7 @@ label_to_color = {
 }
 
 command_inputs = {
-    'semantic_map': runway.segmentation(label_to_id=label_to_id, label_to_color=label_to_color, default_label='unlabeled')
+    'semantic_map': runway.segmentation(label_to_id=label_to_id, label_to_color=label_to_color, default_label='unlabeled', width=640, height=360)
 }
 
 command_outputs = {
