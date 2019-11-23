@@ -1,4 +1,4 @@
-cuda: 9.2
+cuda: 10.0
 python: 3.6
 entrypoint: python runway_model.py
 build_steps:
