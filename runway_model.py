@@ -49,7 +49,7 @@ def setup(opts):
 label_to_color = {
     'unlabeled': (0, 0, 0),
     'grass': (29, 195, 49),
-    'sky': (95, 219, 255),
+    'sky-other': (95, 219, 255),
     'clouds': (170, 170, 170),
     'sea': (54, 62, 167),
     'river': (0, 57, 150),
@@ -58,7 +58,7 @@ label_to_color = {
 }
 
 command_inputs = {
-    'semantic_map': runway.segmentation(label_to_id=label_to_id, label_to_color=label_to_color, default_label='sky', width=640, height=360)
+    'semantic_map': runway.segmentation(label_to_id=label_to_id, label_to_color=label_to_color, default_label='sky-other', width=640, height=360)
 }
 
 command_outputs = {
